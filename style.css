@@ -2,31 +2,17 @@
         body {
             margin: 0;
 			padding: 5px;
-            font-family: arial, verdana, tahoma, sans-serif;
-            font-size: 14px;
             background-color: black;
+            content: center;
         }
 
         img {
-            max-height: 300px;
-            max-width: 100px;
-            background-color: black;
+            max-height: 500px;
+            max-width: 500px;
             position: center;
+            vertical-align: center;
           }
 
-
-        #footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 75%;
-            text-align: center;
-        }
-		#panel {
-			display: flex;
-			align-items: center;
-			max-height: 100%;
-        }
 
      
         
