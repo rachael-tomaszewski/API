@@ -1,23 +1,23 @@
 <html>
 <head>
-    <title>RandomRaccoon</title>
+    <title>Random Raccoon</title>
     <meta charset="utf-8">
-    <meta type="author" content="xinitrc" />
+    <meta type="author" content="rachael-tomaszewski" />
     <meta type="description" content="Displaying pictures of random animals with every click" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="theme-color" content="#FF6600" />
 	<meta http-equiv="Cache-Control" content="max-age=1" />
 
-    <meta property="og:image" content="http://randomfox.ca/images/<?= $random_fox_index ?>.jpg" />
+    <meta property="og:image" content="http://API/images/<?= $random_fox_index ?>.jpg" />
     <meta property="og:title" content="randomfox.ca" />
     <meta property="og:description" content="Random animal on every click!" />
-    <meta property="og:url" content="http://randomfox.ca" />
+    <meta property="og:url" content="http://API" />
 </head>
 <body>
 <div id="panel">
-	<a href="http://randomfox.ca/?i=<?= $random_fox_index ?>" id="fox_full_link">
-		<img src="http://randomfox.ca/images/<?= $random_fox_index ?>.jpg" alt="" title="" style="visibility: hidden;" id="fox_img_link" />
+	<a href="http://randomfox.ca/?i=<?= $random_fox_index ?>" id="fox_full_link"></a>
+		<img src="http://API/images/<?= $random_fox_index ?>.jpg" alt="" title="" style="visibility: hidden;" id="fox_img_link" />
 	</a>
 </div>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
 </body>
