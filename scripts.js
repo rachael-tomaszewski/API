@@ -57,16 +57,11 @@ theImages[49] = '50.jpg'
 
 var j = 0
 var p = theImages.length;
-var preBuffer = new Array()
-for (i = 0; i < p; i++){
-   preBuffer[i] = new Image()
-   preBuffer[i].src = theImages[i]
-}
 
 var whichImage = Math.round(Math.random()*(p-1));
 function showImage(){
-document.write('<img src="'+theImages[whichImage]+'">')
-)};
+    document.write('<img src="images/'+theImages[whichImage]+'">')
+};
 
 showImage();
  
