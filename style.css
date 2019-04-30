@@ -6,12 +6,21 @@
         }
 
         img {
-            max-height: 500px;
-            max-width: 500px;
-            position: center;
+            max-width: 50vw;
+            align-content: center;
             margin-left: auto;
             margin-right: auto;
             width: 50%;
+            height: auto;
+            display: flex;
+            margin-top: 10%;
+          }
+
+          div {
+              text-decoration-color: white;
+              font-size: 14px;
+              text-align: center;
+              
           }
 
 

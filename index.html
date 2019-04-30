@@ -7,16 +7,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="max-age=1" />
     <link rel="stylesheet" type="text/css" href="style.css">
-
     <meta property="og:image" content="http://API/images/.jpg" />
     <meta property="og:title" content="API" />
     <meta property="og:description" content="Random funny animals on every click!" />
     <meta property="og:url" content="http://API" />
 </head>
 <body>
-<div id="panel">
-	<a href="http://API/?i=<?= $random_image_index ?>" id="image_link"></a>
-	</a>
-</div>
+    <div>
+        <a href="http://API/?i=<?= $random_image_index ?>" id="image_link"></a>
+        <p>refresh</p>
+        <input type="button" value="click for floof" onClick="window.location.href=window.location.href"></button>
+    </div>
     <script type="text/javascript" src="scripts.js"></script>
 </body>
