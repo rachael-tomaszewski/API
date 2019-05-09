@@ -13,15 +13,16 @@
 
        input[type="button"] {
             padding-bottom: 10px;
-            padding-top: 30px;
-            background-color: black;
-            font-family: sans-serif;
+            padding-top: 10px;
+            background-color: #fce0f4;
+            font-family: futura, sans-serif;
+            letter-spacing: 1px;
             font-size: 30px;
             color: white;
         }
         
         body {
-            padding-top: 7px;
+            padding-top: 20px;
             margin: 0;
 			padding: 5px;
             background-image: url(wallpaper.jpg);
